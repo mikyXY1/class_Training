@@ -46,4 +46,3 @@ Clothing.fce_add(n_name, n_color, n_size, n_material)
 # print(clothing_list[0].color)  # vypise jen color prvniho oblečení z listu clothing_list
 # print(clothing_list[0].size)  # vypise jen size prvniho oblečení z listu clothing_list
 # print(clothing_list[0].material)  # vypise jen material prvniho oblečení z listu clothing_list
-print(clothing_list)
