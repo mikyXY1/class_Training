@@ -32,7 +32,7 @@ for one_item in clothing_data:       # bere data z Dictionary = clothing_data a 
     new_item = Clothing(name, color, size, material)
     clothing_list.append(new_item)
 
-user_answer = input(f"Jakou barvu obleceni hledate?: ")   #metoda pro hledani barvy obleceni
+user_answer = input(f"Jakou barvu obleceni hledate?: \n")   #metoda pro hledani barvy obleceni
 Clothing.find_color(user_answer)
 
 n_name = input(f"Co chces pridat? Zadej nazev obleceni: \n") #metoda pro pridani noveho obleceni do seznamu
