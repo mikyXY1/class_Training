@@ -17,7 +17,6 @@ class Clothing:
     
 # vytvoreni instance = objektu tridy Clothing - "porod"
 # q_1 = Clothing("Tricko", "bile", "M", "bavlna")
-# q_2 = Clothing("Kalhoty", "modre", "L", "denim")
 
 clothing_list = []
 for one_item in clothing_data:       # bere data z Dictionary = clothing_data a uklada je do Listu = clothing_list
