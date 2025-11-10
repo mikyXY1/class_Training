@@ -14,6 +14,11 @@ class Clothing:
             if item.color.lower() == color.lower():
                 print(f"Nalezene obleceni: {item.name}, Barva: {item.color}, Velikost: {item.size}, Material: {item.material}")
 
+    def fce_add(name, color, size, material):   # metoda pro pridani noveho obleceni do seznamu
+        new_item = Clothing(name, color, size, material)
+        clothing_list.append(new_item)
+        print(f"Pridano obleceni: {new_item.name}, Barva: {new_item.color}, Velikost: {new_item.size}, Material: {new_item.material}")
+
     
 # vytvoreni instance = objektu tridy Clothing - "porod"
 # q_1 = Clothing("Tricko", "bile", "M", "bavlna")
@@ -27,8 +32,14 @@ for one_item in clothing_data:       # bere data z Dictionary = clothing_data a 
     new_item = Clothing(name, color, size, material)
     clothing_list.append(new_item)
 
-user_answer = input(f"Jakou barvu obleceni hledate?: ")
+user_answer = input(f"Jakou barvu obleceni hledate?: ")   #metoda pro hledani barvy obleceni
 Clothing.find_color(user_answer)
+
+n_name = input(f"Co chces pridat? Zadej nazev obleceni: \n") #metoda pro pridani noveho obleceni do seznamu
+n_color = input(f"zadej barvu: \n")
+n_size = input(f"zadej size: \n")
+n_material = input(f"zadej material: \n")
+Clothing.fce_add(n_name, n_color, n_size, n_material)
 
 # print(clothing_list[0])  # vypise prvni objekt z listu clothing_list = name + color + size + material
 # print(clothing_list[0].name)  # vypise jen name prvniho oblečení z listu clothing_list
