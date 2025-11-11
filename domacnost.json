@@ -1,0 +1,35 @@
+[
+  {
+    "nazev": "Televize",
+    "stav": "zapnutý",
+    "spotreba": 150,
+    "_type": "Spotrebic"
+  },
+  {
+    "nazev": "Lednička",
+    "stav": "vypnutý",
+    "spotreba": 100,
+    "_type": "Spotrebic"
+  },
+  {
+    "nazev": "Pračka",
+    "stav": "vypnutý",
+    "spotreba": 5,
+    "_type": "Spotrebic"
+  },
+  {
+    "nazev": "Velká Lednice",
+    "stav": "vypnutý",
+    "spotreba": 120,
+    "objem": 300,
+    "_type": "Lednice"
+  },
+  {
+    "nazev": "Rychlá Pračka",
+    "stav": "zapnutý",
+    "spotreba": 250,
+    "kapacita": 7,
+    "metodaper": "rychlé",
+    "_type": "Pracka"
+  }
+]

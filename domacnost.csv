@@ -1,0 +1,6 @@
+_type,kapacita,metodaper,nazev,objem,spotreba,stav
+Spotrebic,,,Televize,,150,zapnutý
+Spotrebic,,,Lednička,,100,vypnutý
+Spotrebic,,,Pračka,,5,vypnutý
+Lednice,,,Velká Lednice,300,120,vypnutý
+Pracka,7,rychlé,Rychlá Pračka,,250,zapnutý
