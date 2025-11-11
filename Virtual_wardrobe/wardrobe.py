@@ -55,6 +55,8 @@ def main():
     # wardrobe.add_item(ClothingItem("T-shirt", "blue", "M", "cotton"))
     # wardrobe.add_item(ClothingItem("Jeans", "black", "L", "denim"))
     # wardrobe.add_item(ClothingItem("Jacket", "red", "S", "leather"))
+    # wardrobe.add_item(Skirt("Summer Skirt", "yellow", "M", "linen", "knee-length"))
+
     print("Wardrobe contents:")   # výpis všech položek v šatníku
     wardrobe.print_items()
 
